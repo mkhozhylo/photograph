@@ -1,0 +1,110 @@
+.header {
+    width:  100%;
+    position:  fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.08);
+    padding: 25px 0px;
+}
+.header-logo {
+    vertical-align: bottom;
+    width: 30%;
+}
+.header-logo a img{
+    height: 50px
+}
+.header-logo {
+    vertical-align:  bottom;
+    width: 34%;
+    display: inline-block;
+}
+
+.header-menu {
+    width: 66%;
+    text-align:  right;
+    vertical-align:  bottom;
+    display:  inline-block;
+}
+
+button.header-btn {
+    display:  none;
+}
+.header-menu > ul{
+    padding: 0px;
+}
+.header-menu > ul > li > a {
+    font-size: 16px;
+    text-transform:  uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.header-menu > ul > li > a:hover {
+    color:#e75b4e;
+}
+.header-menu ul li {
+    display:  inline-block;
+    margin-left: 40px;
+}
+.hp-hello {
+    background: url(../img/img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 760px;
+}
+.hello-cont {
+    padding-top: 520px;
+    text-align: right;
+    line-height: 30px;
+}
+.hello-cont p{
+    font-size: 16px;
+    color: #fff;
+}
+.hello-btn {
+    border: 0px;
+    min-width: 88px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    background-color: #e75b4e;
+    color: #fff;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.hello-btn:hover {
+    background-color: #d13627;
+}
+.hello-next{
+    border: 0px;
+    margin-top: 60px;
+    background: url(../img/icon/arrows.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 24px;
+    width: 20%;
+    left: 40%;
+    background-size: 24px;
+    position: absolute;
+}
+.about-info{
+    display: inline-block;
+    width: 67%;
+    padding: 20px;
+}
+.about-info > h2{
+    font-size: 26px;
+}
+.about-info > p {
+    font-size: 14px;
+    color: #000;
+    text-align: justify;
+}
+.about-foto{
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
