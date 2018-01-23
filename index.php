@@ -99,55 +99,55 @@
                     <div class="price-box">
                         <div class="box-item">
                             <h3>Пакет мини</h3>
-                            <h4>2000</h4>
+                            <h4>2000 грн</h4>
                             <div class="box-item-text">
-                                <p>ergergeg</p>
-                                <p>dfdfgg</p>
-                                <p>dfbhggmjhm</p>
-                                <p>cbvbcvbcv</p>
-                                <p>cvbcvbcb</p>  
+                                <p>фотосъемка до 3 часов</p>
+                                <p>100-150 фото на диске</p>
+                                <p>обработка 30 фото</p>
+                                <p>печать 10 фото 15х21</p>
+                                <p>эксклюзивная упаковка</p>
                             </div>
                             <button class="price-zakaz">заказать</button>
                         </div>
                         <div class="box-item">
-                            <h3>Пакет мини</h3>
-                            <h4>2000</h4>
+                            <h3>Пакет стандарт</h3>
+                            <h4>3500 грн</h4>
                             <div class="box-item-text">
-                                <p>ergergeg</p>
-                                <p>dfdfgg</p>
-                                <p>dfbhggmjhm</p>
-                                <p>cbvbcvbcv</p>
-                                <p>cvbcvbcb</p> 
-                                <p>cbvbcvbcv</p>
-                                <p>cvbcvbcb</p>
+                                <p>фотосъемка до 4 часов</p>
+                                <p>250-300 фото на диске</p>
+                                <p>обработка 40 фото</p>
+                                <p>печать 10 фото 15х21</p>
+                                <p>фотокнига 40х60</p> 
+                                <p>эксклюзивная упаковка</p>
+                                <p>скидка на фотокнигу 10%</p>
                             </div>
                             <button class="price-zakaz">заказать</button>
                         </div>
                         <div class="box-item">
-                            <h3>Пакет мини</h3>
-                            <h4>2000</h4>
+                            <h3>Пакет премиум</h3>
+                            <h4>5000 грн</h4>
                            <div class="box-item-text">
-                                <p>ergergeg</p>
-                                <p>dfdfgg</p>
-                                <p>dfbhggmjhm</p>
-                                <p>cbvbcvbcv</p>
-                                <p>cvbcvbcb</p> 
-                               <p>cbvbcvbcv</p>
-                                <p>cvbcvbcb</p>
+                                <p>фотосъемка до 5 часов</p>
+                                <p>400-450 фото на диске</p>
+                                <p>обработка 50 фото</p>
+                                <p>печать 10 фото 15х21</p>
+                                <p>фотокнига 20х20</p> 
+                                <p>эксклюзивная упаковка</p>
+                                <p>постоянная скидка 10%</p>
                             </div>
                             <button class="price-zakaz">заказать</button>
                         </div>
                         <div class="box-item">
-                            <h3>Пакет мини</h3>
-                            <h4>2000</h4>
+                            <h3>Свадебная</h3>
+                            <h4>8000 грн</h4>
                            <div class="box-item-text">
-                                <p>ergergeg</p>
-                                <p>dfdfgg</p>
-                                <p>dfbhggmjhm</p>
-                                <p>cbvbcvbcv</p>
-                                <p>cvbcvbcb</p>  
-                               <p>cbvbcvbcv</p>
-                                <p>cvbcvbcb</p>
+                                <p>фотосъемка весь день</p>
+                                <p>до 2000 фото на диске</p>
+                                <p>обработка 60 фото</p>
+                                <p>печать 10 фото</p>
+                                <p>свадебная фотокнига 30х30</p>  
+                               <p>съемка LoveStory</p>
+                                <p>эксклюзивная упаковка</p>
                             </div>
                             <button class="price-zakaz">заказать</button>
                         </div>
