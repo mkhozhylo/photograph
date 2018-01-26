@@ -1,0 +1,361 @@
+
+@media screen (min-device-width: 60em) and (max-device-width: 75em), (min-width: 60em) and (max-width: 75em) {
+.nw{
+    width:100%;
+}
+.header-logo {
+    text-align: center;
+}
+.header-menu > ul {
+    padding: 0px 25px 0px 0px;
+}
+.hello-cont-inf {
+    padding: 60vh 25px 0px 0px;
+}
+.price-box {
+    border: none; 
+    margin-top: 55px;
+    text-align: center;
+}
+.box-item {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin: 0px 50px;
+}
+.feedback-item {
+    width: 45%;
+    margin: 0px 20px;
+}
+.contact-info {
+    padding-left: 50px;
+}
+}
+@media screen (min-device-width: 45em) and (max-device-width: 60em), (min-width: 45em) and (max-width: 60em) {
+.nw{
+    width:100%;
+}
+.header-logo {
+    text-align: center;
+}
+button.header-btn{
+    display: inline-block;
+    background: url(../../assets/img/icon/menu.png) center no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    border: none;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 55%;
+    cursor: pointer;
+    outline: none;
+}
+button.header-btn:hover{
+    outline: none;
+    border: none;
+}
+.header-menu{
+    position: fixed;
+    right: -250px;
+    top: 100px;
+    -webkit-transition: left 0.3s;
+    -moz-transition: left 0.3s;
+    transition: left 0.3s;
+    z-index: 5555;
+}
+.header-menu.show{
+    position: absolute;
+    z-index: 55555;
+    right: 0px;
+    top: 100px;
+    transition: 0.3s;
+    width: 250px;
+    padding: 15px;
+    background-color: #333;
+    text-align: center;
+    -webkit-transition: left 0.3s;
+    -moz-transition: left 0.3s;
+    transition: left 0.3s;
+}
+.header-menu ul li {
+    width: 100%;
+    line-height: 30px;
+    margin-left: 0px;
+}
+.header-menu > ul {
+    padding: 0px;
+}
+.hello-cont-inf {
+    padding: 60vh 25px 0px 0px;
+}
+.about-foto {
+    display: none;
+}
+.about-info{
+    width: 100%;
+
+}
+.price-box {
+    border: none; 
+    margin-top: 55px;
+    text-align: center;
+}
+.box-item {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin: 0px 20px;
+}
+.feedback-item {
+    width: 45%;
+    margin: 0px 0px 0px 20px;
+}
+.contact-info {
+    padding-left: 50px;
+}
+.feedback-text {
+    padding-left: 10px;
+}
+.hp-feedback {
+    padding: 50px 0px 0px 0px;
+}
+.contact-cont {
+    padding: 50px 0px 50px 0px;
+}
+.contact-info {
+    width: 45%;
+}
+.contact-form {
+    width: 45%;
+}
+}
+@media screen (min-device-width: 40em) and (max-device-width: 45em), (min-width: 40em) and (max-width: 45em){
+.nw{
+    width:100%;
+}
+.header-logo {
+    margin-left: 20px;
+}
+button.header-btn{
+    display: inline-block;
+    background: url(../../assets/img/icon/menu.png) center no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    border: none;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 55%;
+    cursor: pointer;
+    outline: none;
+}
+button.header-btn:hover{
+    outline: none;
+    border: none;
+}
+.header-menu{
+    position: fixed;
+    right: -250px;
+    top: 70px;
+    -webkit-transition: left 0.3s;
+    -moz-transition: left 0.3s;
+    transition: left 0.3s;
+    z-index: 5555;
+}
+.header-menu.show{
+    position: absolute;
+    z-index: 55555;
+    right: 0px;
+    top: 70px;
+    transition: 0.3s;
+    width: 250px;
+    padding: 15px;
+    background-color: #333;
+    text-align: center;
+    -webkit-transition: left 0.3s;
+    -moz-transition: left 0.3s;
+    transition: left 0.3s;
+}
+.header-menu ul li {
+    width: 100%;
+    line-height: 30px;
+    margin-left: 0px;
+}
+.header-menu > ul {
+    padding: 0px;
+}
+.about-info {
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    padding: 0px;
+}
+.hello-cont-inf {
+    padding: 32vh 0px 0px 0px;
+}
+.hello-cont {
+    text-align: center;
+}
+.about-info > p {
+    text-align: justify;
+}
+.hello-next {
+    bottom: 25px;
+}
+.about-foto {
+    display: none;
+}
+.foto-item.one {
+    width: 50%;
+}
+.foto-item.two {
+    width: 50%;
+}
+.foto-item.three {
+    width: 100%;
+}
+.box-item {
+    width: 50%;
+}
+.feedback-item {
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+}
+.contact-cont {
+    display: block;
+    padding: 50px 0px 0px 0px;
+    height: 650px;
+    position: relative;
+}
+.contact-info{
+    position: absolute;
+    top: 367px;
+    left: 165px;
+    display: block;
+    text-align: center;
+}
+.contact-form {
+    position: absolute;
+    top: 50px;
+    left: 165px;
+}
+}
+@media screen (min-device-width: 20em) and (max-device-width: 40em), (min-width: 20em) and (max-width: 40em){
+.nw{
+    width:100%;
+}
+.header {
+    position: fixed;
+    padding: 10px 0px;
+}
+.header-logo {
+    text-align: center;
+    width: 85%;
+}
+button.header-btn{
+    display: inline-block;
+    background: url(../../assets/img/icon/menu.png) center no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    border: none;
+    vertical-align: top;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+}
+button.header-btn:hover{
+    outline: none;
+    border: none;
+}
+.header-menu{
+    position: fixed;
+    right: -250px;
+    top: 70px;
+    -webkit-transition: left 0.3s;
+    -moz-transition: left 0.3s;
+    transition: left 0.3s;
+    z-index: 5555;
+}
+.header-menu.show{
+    position: absolute;
+    z-index: 55555;
+    right: 0px;
+    top: 70px;
+    transition: 0.3s;
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    text-align: center;
+    -webkit-transition: left 0.3s;
+    -moz-transition: left 0.3s;
+    transition: left 0.3s;
+}
+.header-menu ul li {
+    width: 100%;
+    line-height: 30px;
+    margin-left: 0px;
+}
+.header-menu > ul {
+    padding: 0px;
+}
+.hello-cont-inf {
+    padding: 35vh 0px 0px 0px;
+    text-align: center;
+}
+.about-cont {
+    padding: 60px 0px 70px;
+}
+.about-foto {
+    display: none;
+}
+.about-info {
+    width: 100%;
+    padding: 10px;
+}
+.job-title, .price-title, .feedback-title, .contact-title {
+    width: 100%;
+    font-size: 20px;
+    max-width: 400px;
+}
+.foto-item {
+    width: 100%!important;
+}
+.box-item {
+    width: 100%;
+}
+.feedback-item {
+    width: 100%;
+}
+.feedback-foto {
+    width: 100%;
+    display: block;
+}
+.feedback-text {
+    width: 90%;
+    text-align: justify;
+}
+.contact-cont {
+    display: block;
+    padding: 50px 0px 0px 0px;
+    height: 650px;
+    position: relative;
+}
+.contact-info{
+    width: 100%;
+    position: absolute;
+    top: 367px;
+    left: 0px;
+    display: block;
+    text-align: center;
+}
+.contact-form {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    width: 100%;
+    padding: 0px 25px;
+}
+}

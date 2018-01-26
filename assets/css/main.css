@@ -1,10 +1,10 @@
 .header {
     width:  100%;
-    position:  fixed;
+    position:  absolute;
     left: 0px;
     top: 0px;
     z-index: 99999;
-    background-color: rgba(0, 0, 0, 0.08);
+    background-color: rgba(0, 0, 0, 0.38);
     padding: 25px 0px;
 }
 .header-logo {
@@ -19,14 +19,12 @@
     width: 34%;
     display: inline-block;
 }
-
 .header-menu {
     width: 66%;
     text-align:  right;
     vertical-align:  bottom;
     display:  inline-block;
 }
-
 button.header-btn {
     display:  none;
 }
@@ -39,9 +37,16 @@ button.header-btn {
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
 }
+
+
+
+
 .header-menu > ul > li > a:hover {
     color:#e75b4e;
+    border-bottom: 1px solid #e75b4e;
 }
 .header-menu ul li {
     display:  inline-block;
@@ -58,17 +63,17 @@ button.header-btn {
 .hello-cont {
        text-align: right;
        line-height: 30px;
-       position: absolute;
-       bottom: 0px;
-       margin-bottom: 250px;
-       right: 0px;
-       margin-right: 150px;
 }
-.hello-cont p{
-    font-size: 16px;
+.hello-cont-inf{
+    padding: 60vh 0px 0px 0px;
+}
+.hello-cont-inf p{
+    font-size: 18px;
     color: #fff;
+    font-weight: 500;
 }
 .hello-btn {
+    margin-top: 20px;
     border: 0px;
     min-width: 88px;
     padding: 8px 16px;
@@ -112,6 +117,7 @@ button.header-btn {
     color: #000;
     text-align: left;
     margin-bottom: 25px;
+    padding-left: 25px;
 }
 .about-cont {
     padding: 120px 0px 140px;
@@ -226,7 +232,7 @@ button.header-btn {
 }
 .box-item-text p{
     line-height: 30px;
-    font-size: 16px;
+    font-size: 14px;
     margin: 10px 0px;
 }
 button.price-zakaz {
@@ -236,8 +242,10 @@ button.price-zakaz {
     text-transform: uppercase;
     background-color: #444444;
     border: 0px;
+    cursor: pointer;
     margin: 25px 0px;
 }
+
 .box-item {
     height: 565px;
     position: relative;
@@ -257,6 +265,10 @@ button.price-zakaz {
 .box-item:hover {
     background-color:#e75b4e;
     color:#fff;
+    cursor: pointer;
+}
+.box-item:hover > button.price-zakaz{
+    background-color: #6e6868;
 }
 .hp-feedback{
     padding: 100px 0px 0px 0px;
@@ -333,7 +345,7 @@ button.price-zakaz {
     height: 24px;
 }
 .hp-contact{
-    margin-top: -43px;
+    margin-top: -55px;
 }
 .contact-info{
     width: 50%;

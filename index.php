@@ -4,8 +4,7 @@
 	<title>Photograph</title>
 	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href ="assets/css/default.css"/>
-	<link rel="stylesheet" type="text/css" href ="assets/css/main.css"/>
+	<link rel="stylesheet" type="text/css" href ="main.css"/>
 </head>
 <body>
     <div id="page" class="page">
@@ -16,43 +15,43 @@
                 </div>
                 <div class="header-menu">
                     <ul>
-                        <li><a>Обо мне</a></li>
-                        <li><a>Портфолио</a></li>
-                        <li><a>Услуги</a></li>
-                        <li><a>Цены</a></li>
-                        <li><a>Отзывы</a></li>
-                        <li><a>Блог</a></li>
-                        <li><a>Контакты</a></li>
+                        <li><a href="#hp-about">Обо мне</a></li>
+                        <li><a href="#hp-job">Портфолио</a></li>
+                        <li><a href="#hp-price">Цены</a></li>
+                        <li><a href="#hp-feedback">Отзывы</a></li>
+                        <li><a href="#hp-contact">Контакты</a></li>
                     </ul>
                 </div>
-                <button class="header-btn"></button>
+                <button class="header-btn"></button>        
             </div>
         </div>
         <div id="page-cont" class="page-cont page-hp">
             <div class="hp-hello">
                 <div class="hello-cont nw">
-                    <p>email: alexhol@ua.fm</p>
-                    <p>tel: 066 898 1001</p>
-                    <p>097 922 17 26</p>
-                    <button class="hello-btn">закажите фотосессию прямо сейчас</button>
+                    <div class="hello-cont-inf">
+                        <p>email: m.khozhilo@gmail.com</p>
+                        <p>tel: 066 898 1001</p>
+                        <p>097 922 17 26</p>
+                        <button class="hello-btn">закажите фотосессию прямо сейчас</button>
+                    </div>
                 </div>
                 <button class="hello-next"></button>
             </div>
-            <div class="hp-about">
+            <div id="hp-about" class="hp-about">
                 <div class="about-cont nw">
                     <div class="about-info">
                         <h2>Добро пожаловать в сказочный мир моей фотографии</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>У каждого человека есть своя прекрасная, удивительная история. Писатель может выразить ее словами, композитор – музыкой, художник – красками, фотограф – фотографией. Вопрос лишь в том, каким образом это будет сделано. Уверена, что самое главное, чтобы это было сделано с любовью.</p>
+                        <p>Я люблю свою работу, и для меня очень важно, чтобы фотографии были живыми и яркими. Мне очень нравится создавать различные фото-истории. Детская, семейная и романтическая съемка, съемка в ожидании малыша или съемка Вашего свадебного торжества – это то, что я люблю снимать. Это истории, которые меня увлекают. Надеюсь, что мои работы останутся для вас ярким воспоминанием.</p>
+                        <p>На своих фотографиях я уделяю много внимания таким деталям, как свет и тени, эмоции и жесты. Фотография позволяет запечатлеть прекрасную, яркую жизнь во всей своей красе и самых лучших ее проявлениях.</p>
+                        <p>Гете в своем бессмертном произведении сказал: "Остановись, мгновение! Ты прекрасно". Теперь это желание осуществимо. Мгновение не только остановится, но и навсегда останется с Вами. Благодаря таким приятным воспоминаниям легко переживаются невзгоды, ведь человек всегда тянется вернуться в свою собственную сказку. К сожалению, человеческая память коротка, а качественно сделанные фотографии помогают не забыть те счастливые минутки, в которые хочется возвращаться снова и снова.</p>
                     </div>
                     <div class="about-foto">
                         <img src="assets/img/img/fotoph 1.png">
                     </div>
                 </div>
             </div>
-            <div class="hp-job">
+            <div id="hp-job" class="hp-job">
                 <div class="job-title">Мои последние работы</div>
                 <div class="job-foto">
                     <div class="foto-item one">
@@ -93,7 +92,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hp-price">
+            <div id="hp-price" class="hp-price">
                 <div class="price-cont nw">
                     <div class="price-title">Цены на мои услуги</div>
                     <div class="price-box">
@@ -155,7 +154,7 @@
                    
                 </div>
             </div>
-            <div class="hp-feedback">
+            <div id="hp-feedback" class="hp-feedback">
                 <div class="feedback-title">Отзывы</div>
                 <div class="feedback-cont">
                     <div class="feedback nw">
@@ -191,13 +190,13 @@
                     
                 </div>
             </div>
-            <div class="hp-contact">
+            <div id="hp-contact" class="hp-contact">
                 <div class="contact-title">контакты</div>
                 <div class="contact">
                     <div class="contact-cont nw">
                         <div class="contact-info">
-                            <h3>John Doe</h3>
-                            <p>email: john.doe@email.com</p>
+                            <h3>Maksym Khozhylo</h3>
+                            <p>email: m.khozhilo@gmail.com</p>
                             <p>тел: 066 898 10 01 <i>(MTC)</i></p>
                             <p>097 922 17 26 <i>(KS)</i></p>
                             <div class="contact-cos">
@@ -230,6 +229,19 @@
             </div>
         </div>
     </div>
-	
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+       $(function(){
+        $('.header-btn').click(function(){
+            var sidebar = $('.header-menu');
+            if(sidebar.hasClass('show')) {sidebar.removeClass('show')} else {sidebar.addClass('show').delay(200).fadeIn(500)}
+        });
+       
+      });
+       
+
+</script>
+
 </body>
 </html>
